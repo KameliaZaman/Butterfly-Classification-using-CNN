@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/logo.png" alt="Logo" width="500" height="500">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/logo.png" alt="Logo" width="400" height="200">
 
   <h3 align="center">Butterfly Classification using CNN</h3>
 
@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/About.png" alt="Logo" width="500" height="500">
+<img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/About.png" alt="Logo" width=400" height="200">
 
 The project aims to develop a butterfly image classification system utilizing the ResNet50V2 architecture. The goal is to accurately identify different species of butterflies from images, leveraging the deep learning capabilities of ResNet50V2. This involves training the model on a large dataset of butterfly images, fine-tuning its parameters, and optimizing its performance to achieve high accuracy in classifying various butterfly species. Ultimately, the project seeks to provide a reliable tool for researchers, conservationists, and enthusiasts to easily identify and catalog different butterfly species, aiding in biodiversity studies and conservation efforts.
 
@@ -127,7 +127,7 @@ Dataset is from "https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-sp
 
 ResNet50V2 was used to to train the model. Adam optimizer was applied with a learning rate of 0.0001. 
 
-<img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/arch.png" alt="Logo" width="500" height="500">
+<img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/arch.png" alt="Logo" width="400" height="200">
 
 #### Data Preparation
 - The dataset is loaded from a CSV file containing information about the butterflies and moths.
@@ -164,7 +164,7 @@ ResNet50V2 was used to to train the model. Adam optimizer was applied with a lea
   fig.show()
   ```
   
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/eda.png" alt="Logo" width="500" height="500">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/eda.png" alt="Logo" width="400" height="200">
 
 #### Image Data Generation
 - Image data generators are used to augment the training data.
@@ -204,12 +204,12 @@ ResNet50V2 was used to to train the model. Adam optimizer was applied with a lea
          callbacks=[rlr_cb, early_cb])
   ```
 
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/train_acc.png" alt="Logo" width="500" height="500">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/train_acc.png" alt="Logo" width="400" height="200">
 
 #### Model Evaluation
 - The trained model is evaluated on the test set to measure its accuracy.
 
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/test_acc.png" alt="Logo" width="500" height="500">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/test_acc.png" alt="Logo" width="400" height="200">
 
 #### Deployment
 - Gradio is utilized for deploying the trained model.
@@ -258,7 +258,7 @@ ResNet50V2 was used to to train the model. Adam optimizer was applied with a lea
   iface.launch()
   ```
 
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/About.png" alt="Logo" width="500" height="500">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/About.png" alt="Logo" width="400" height="200">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
