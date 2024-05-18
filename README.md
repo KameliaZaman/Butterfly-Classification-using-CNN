@@ -209,7 +209,7 @@ ResNet50V2 was used to to train the model. Adam optimizer was applied with a lea
 #### Model Evaluation
 - The trained model is evaluated on the test set to measure its accuracy.
 
-  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/test_acc.png" alt="Logo" width="400" height="200">
+  <img src="https://huggingface.co/KameliaZaman/Butterfly-Classification-Using-CNN/resolve/main/assets/test_acc.png" alt="Logo" width="400" height="50">
 
 #### Deployment
 - Gradio is utilized for deploying the trained model.
